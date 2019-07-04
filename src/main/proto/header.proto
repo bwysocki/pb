@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package pl.stalostech.proto;
+
+message Header {
+  string name = 1;
+  string value = 2;
+  
+}
